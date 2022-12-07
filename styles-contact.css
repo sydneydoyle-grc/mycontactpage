@@ -74,7 +74,7 @@ background-position: center;
 text-align: center;
 padding: 20%;
 margin: 50px auto;
-background: rgba(211, 211, 211, .40);
+background: rgba(159, 156, 156, .40);
 border-radius: 50px 0px 50px 0px;
 /*this uses opacity of 75% for the background color*/
 
@@ -111,7 +111,6 @@ border-radius: 50px 0px 50px 0px;
 	100% { opacity: 1; }
 /*this is for fade in effect*/
 }
-
 
 #logo {
 text-align: center;
