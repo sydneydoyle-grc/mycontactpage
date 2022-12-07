@@ -78,6 +78,38 @@ background: rgba(211, 211, 211, .40);
 border-radius: 50px 0px 50px 0px;
 /*this uses opacity of 75% for the background color*/
 
+/* this is for fade in effect */
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+/*this is for fade in effect*/
 }
 
 
